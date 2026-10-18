@@ -1,0 +1,26 @@
+﻿# Dependencies and generated build output
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/local.settings.json
+**/application-local.properties
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local backup archive
+*.log
+backend-concurrency.zip
+backend/startup-log.txt
