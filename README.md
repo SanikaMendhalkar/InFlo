@@ -258,8 +258,8 @@ Open a second terminal at the repository root:
 
 ```powershell
 cd frontend
-npm install
-npm run dev
+npm.cmd install
+npm.cmd run dev
 ```
 
 Vite typically starts the frontend at:
